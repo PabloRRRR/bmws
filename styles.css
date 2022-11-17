@@ -1,0 +1,88 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/serie4bmw.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    
+    justify-content: space-around;
+
+}
+
+nav::after{
+    content: "";
+    background-color:rgba(245, 245, 245, 0.356);
+    width: 66%;
+    height: 1px;
+    position: absolute;
+    top: 10%;
+    left: 14%;
+}
+
+ul{
+    display: flex;
+
+}
+.nav__ul--enlaces > li{
+    display: flex;
+    padding: 15px;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 650;
+    color: whitesmoke;
+    align-content: center;
+
+}
+.nav__ul--icons > li{
+    display: flex;
+    padding: 15px;
+    padding-top: 20px;
+    color: whitesmoke;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.nav__ul--icons > img{
+    width: 35px;
+    height: 35px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.header__div{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    padding: 10px;
+}
+.header__div > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.header__div > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.header__div--button{
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(33, 89, 153);
+    color: antiquewhite;
+    border: none;
+    border-radius: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    
+}
