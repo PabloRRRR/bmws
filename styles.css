@@ -49,7 +49,7 @@ ul{
 .nav__ul--icons > li{
     display: flex;
     padding: 15px;
-    padding-top: 20px;
+    padding-top: 25px;
     color: whitesmoke;
     align-content: center;
     justify-content: space-around;
@@ -59,7 +59,7 @@ ul{
     width: 50px;
     height: 50px;
     padding-left: 20px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 .header__div{
