@@ -8,14 +8,16 @@
 header{
     width: 100%;
     height: 100vh;
-    background-image: url(/assets/serie4bmw.jpg);
+    background-image: url(/assets/bmws4.jpg);
+    border-bottom-style: groove;
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom-color: rgba(245, 224, 186, 0.322);
 }
 
 nav{
     display: flex;
-    
+    align-items: center;
     justify-content: space-around;
 
 }
@@ -39,11 +41,10 @@ ul{
     padding: 15px;
     padding-top: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: 11px;
     font-weight: 650;
     color: whitesmoke;
     align-content: center;
-
 }
 .nav__ul--icons > li{
     display: flex;
@@ -55,8 +56,8 @@ ul{
 }
 
 .nav__ul--icons > img{
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     padding-left: 20px;
     padding-top: 5px;
 }
@@ -84,5 +85,47 @@ ul{
     border-radius: 1px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-small;
-    
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main__div--title{
+    display: flex;
+    padding-left: 12%;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+
+.main__div--title > h5{
+    display: flex;
+    align-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgba(148, 148, 148, 0.747);
+}
+
+.main__ul--types{
+    display: flex;
+    padding-left: 12px;
+}
+
+.main__ul--types > li{
+    display: flex;
+    padding: 15px;
+    align-content: space-between;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgba(148, 148, 148, 0.747);
 }
