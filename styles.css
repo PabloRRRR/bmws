@@ -22,9 +22,9 @@ nav{
 
 }
 
-nav::after{
+nav:after{
     content: "";
-    background-color:rgba(245, 245, 245, 0.356);
+    background-color:rgba(245, 245, 245, 0.171);
     width: 66%;
     height: 1px;
     position: absolute;
@@ -34,7 +34,6 @@ nav::after{
 
 ul{
     display: flex;
-
 }
 .nav__ul--enlaces > li{
     display: flex;
@@ -51,7 +50,7 @@ ul{
     transform: scale(1.1);
 }
 
-.nav__ul--icons > li{
+.nav__ul--icons li{
     display: flex;
     padding: 15px;
     padding-top: 25px;
@@ -161,7 +160,7 @@ main li:hover{
     justify-content:space-between
 }
 
-.main__div--models img{
+.main__div--models  img{
     width: 180px;
     height: 90px;
 }
