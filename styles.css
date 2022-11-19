@@ -189,6 +189,10 @@ main li:hover{
     color: black;
 }
 
+.main__div--models a:hover{
+    color: rgba(80, 77, 77, 0.726);
+}
+
 footer{
     background-color: whitesmoke;
 }
