@@ -72,19 +72,20 @@ ul{
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
 }
-.header__div > h2{
+.header__div > h4{
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
+    font-size: 16.5px;
 }
 .header__div--button{
-    width: 150px;
+    width: 190px;
     padding: 10px;
     background-color: rgb(33, 89, 153);
     color: antiquewhite;
     border: none;
     border-radius: 1px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: x-small;
+    font-size: 11px;
 }
 
 main{
@@ -95,7 +96,7 @@ main{
     background-repeat: no-repeat;
 }
 
-.main__div{
+.main__div1{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -103,7 +104,7 @@ main{
 
 .main__div--title{
     display: flex;
-    padding-left: 12%;
+    margin-left: 13%;
     padding-top: 150px;
     padding-bottom: 20px;
 }
@@ -117,7 +118,7 @@ main{
 
 .main__ul--types{
     display: flex;
-    padding-left: 12px;
+    margin-left: none;
 }
 
 .main__ul--types > li{
@@ -126,6 +127,52 @@ main{
     align-content: space-between;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: 560;
+    font-size: 14px;
     color: rgba(148, 148, 148, 0.747);
+
+}
+
+main li:hover{
+    transform: scale(1.25);
+    color: rgba(0, 0, 0, 0.637);
+    border-bottom: 2px solid rgb(33, 89, 153);
+}
+
+.main__div--models{
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 17%;
+    position: absolute;
+    justify-content:space-between
+}
+
+.main__div--models img{
+    width: 180px;
+    height: 90px;
+}
+
+.main__div--models img:hover{
+    transform: scale(1.5);
+}
+
+.main__div--models div{
+    margin: 15px;
+}
+
+.main__div--models{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__div--models p{
+    color: rgba(80, 77, 77, 0.726);
+    font-size: 10.5px;
+}
+
+.main__div--models a{
+    display: flex;
+    font-size: 10.5px;
+    color: black;
+    
 }
