@@ -35,7 +35,7 @@ nav:after{
 ul{
     display: flex;
 }
-.nav__ul--enlaces > li{
+.nav__ul--enlaces li{
     display: flex;
     padding: 15px;
     padding-top: 25px;
@@ -102,10 +102,12 @@ ul{
 
 main{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: whitesmoke;
     background-size: cover;
     background-repeat: no-repeat;
+    
+
 }
 
 .main__div1{
@@ -116,7 +118,7 @@ main{
 
 .main__div--title{
     display: flex;
-    margin-left: 13%;
+    margin-left: 19%;
     padding-top: 150px;
     padding-bottom: 20px;
 }
@@ -156,7 +158,7 @@ main li:hover{
     align-content: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left: 17%;
-    position: absolute;
+    width: 69%;
     justify-content:space-between
 }
 
@@ -192,12 +194,110 @@ main li:hover{
     color: rgba(80, 77, 77, 0.726);
 }
 
-footer{
-    background-color: whitesmoke;
+.main__div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 69%;
+    align-content: center;
+    align-items: start;
+    justify-content: space-around;
+    margin-left: 15%;   
 }
 
-footer div{
+.main__div2 h2{
+    font-size: 22px;
+    
+}
+
+.main__div2 p{
+    font-size: 12px;
+    
+}
+
+.main__div2 img{
+    width: 180px;
+    height: 95px;
+
+}
+
+.main__div2 div{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: flex-start;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    margin: 5px;
+    padding: 14px;
+}
+
+footer{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.footer__div0{
     background-color: rgba(206, 197, 197, 0.671);
     height: 80vh;
     width: 100%;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: stretch;
+    justify-content: space-evenly;
 }
+
+.footer__div0 div{
+    margin-top: 150px;
+}
+
+.footer__div0 ul{
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.footer__div0 h2{
+    font-size: 18px;
+}
+
+.div0__ul a{
+    font-size: 12px;
+    color: rgb(138, 136, 136);
+}
+
+.div0__ul a:hover{
+    color: rgba(138, 136, 136, 0.678);
+}
+
+.footer__div--1-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__div1{
+    display: flex;
+    font-size: 11px;
+    padding-left: 10px;
+    
+}
+
+.footer__div2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__div2 li{
+    padding: 5px;
+}
+
+.footer__ul--links{
+    display: flex;
+}
+
+.footer__ul--links a{
+    font-size: 10px;
+}
+
